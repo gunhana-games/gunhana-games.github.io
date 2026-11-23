@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: #14161c; color: #e8e9ee;
+  font-family: system-ui, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  line-height: 1.8;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 28px 18px 60px; }
+header.top { text-align: center; padding: 28px 0 8px; }
+header.top h1 { margin: 0; font-size: 28px; letter-spacing: .04em; }
+header.top p { margin: 8px 0 0; color: #a9adbb; }
+h2 { font-size: 20px; margin: 36px 0 12px; border-left: 4px solid #ffd24a; padding-left: 10px; }
+h3 { font-size: 16px; margin: 24px 0 6px; }
+a { color: #8ecbff; }
+.card {
+  display: flex; gap: 16px; align-items: center; background: #1f232d;
+  border-radius: 14px; padding: 16px; margin: 14px 0; text-decoration: none; color: inherit;
+}
+.card img { width: 72px; height: 72px; border-radius: 16px; flex: none; }
+.card b { font-size: 18px; display: block; }
+.card span { color: #b9bdca; font-size: 14px; line-height: 1.6; display: block; margin-top: 2px; }
+.card em { font-style: normal; color: #ffd24a; font-size: 13px; }
+nav.foot { margin-top: 48px; padding-top: 16px; border-top: 1px solid #2c3140; font-size: 14px; display: flex; gap: 16px; flex-wrap: wrap; }
+.note { color: #a9adbb; font-size: 14px; }
